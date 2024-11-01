@@ -1,0 +1,317 @@
+
+/*
+* ************************************
+* All Page Types Setting's Meta Box 
+*   Contains
+*   All readymade block metaboxes
+* ************************************
+*/
+
+/* Settings Tab */
+
+.wpws-tab-wrapper {
+    margin: 15px 0;
+    position: relative;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.wpws-landing-table .wpws-table-container {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+div.wpws-tab {
+    cursor: pointer;
+    font-size: 18px;
+    display: inline-block;
+    border: 1px solid #e5e5e5;
+    border-bottom: none;
+    padding: 7px 7px;
+    font-size: 14px;
+    font-weight: 600;
+    background: #fafafa;
+    color: #556068;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.wpws-tab .dashicons {
+    font-size: 15px;
+    height: 15px;
+}
+
+.wpws-field-row, .wpws-setting-field-row-heading {
+    margin-bottom: 15px;
+}
+
+.wpws-tab-wrapper .wpws-tab:first-child {
+    border-left: none ;
+}
+
+.wpws-tab.active {
+    background: #ffffff;
+    color: #444444;
+}
+
+.wpws-tab-content {
+    display: none;
+}
+
+.wpws-column-right {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 1em;
+}
+
+.wpws-tab-content.active {
+    display: table;
+}
+
+/*
+ * End text visual CSS starts here.
+ */
+.wpws-tab .tab-title {
+    -webkit-transition: background 0.5s;
+    -moz-transition: background 0.5s;
+    transition: background 0.5s;
+    -webkit-transform-origin: 50% 0;
+    -moz-transform-origin: 50% 0;
+    transform-origin: 50% 0;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -webkit-transform-origin: 0% 50%;
+    -moz-transform-origin: 0% 50%;
+    transform-origin: 0% 50%;
+}
+
+.wpws-tab .tab-title::before {
+    position: absolute;
+    padding: inherit;
+    top: 0px;
+    background: #fafafa;
+    color: #444444;
+    right: 0px;
+    border: 1px solid #ddd;
+    border-right: none;
+    padding: 6px 10px 8px;
+    content: attr(data-hover);
+    opacity: 0;
+    pointer-events: none;
+}
+
+.wpws-tab.active .tab-title:before {
+    opacity: 1;
+}
+
+/*
+ * End text visual CSS ends here.
+ */
+.wpws-field-row .section-description {
+    margin-top: 20px;
+}
+
+.setting-group-slideup, .setting-group-slidedown {
+    max-height: 0;
+    padding-top: 0;
+    overflow-y: hidden;
+    -webkit-transition: max-height 0.8s ease-in-out;
+    -moz-transition: max-height 0.8s ease-in-out;
+    -o-transition: max-height 0.8s ease-in-out;
+    transition: max-height 0.8s ease-in-out;
+}
+
+.wpws-setting-field-row:not(:first-child) {
+    margin-top: 20px;
+}
+
+.setting-group-slidedown.wpws-setting-field-row-content {
+    max-height: 180px;
+}
+
+.wpws-setting-field-row-content .wpws-field-row-heading {
+    margin: 10px;
+}
+
+/* Settings Tab End */
+
+.wpws-field-row-heading {
+    width: 30%; 
+}
+
+.wpws-field-row-content {
+    width: 70%;
+}
+
+.wpws-field-heading-content {
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+.wpws-setting-field-row-heading .dashicons-arrow-down {
+    cursor: pointer;
+    font-weight: 600;
+    color: #23282d;
+    margin-left: 75px;
+    padding: 7px 8px 7px 6px;
+    background: #fafafa;
+    border-radius: 50%;
+    border: 1px solid #ccd0d4;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+}
+
+.wpws-visibility-config  .dashicons-arrow-down, .wpws-hidden-config  .dashicons-arrow-down {
+    margin-left: 90px;
+}
+
+.wpws-group-field-option {
+    display: inline-block;
+    border: 2px solid transparent;
+    cursor: pointer;
+    background: #E7EBEF;
+}
+
+.wpws-group-field-options input[type="radio"]:checked + label {
+    background: #fff;
+}
+
+.wpws-field-row-content.wpws-group-field-options {
+    border: 1px solid #ddd;
+    overflow: hidden;
+    position: relative;
+    background: #E7EBEF;
+}
+
+.setting-group-checkbox_field .wpws-group-field-options {
+    background: transparent;
+    border: none;
+}
+
+.wpws-setting-field-row-heading .dashicons {
+    vertical-align: middle;
+}
+
+.wpws-landing-table {
+    padding-top: 5px;
+}
+
+.wpws-table-container .wpws-column-right .wpws-field-row-heading {
+    font-size: 14px;
+    width: 35%;
+    height: 100%;
+    display: inline-block;
+    line-height: 1.5em;
+    min-height: 28px;
+}
+
+.wpws-table-container .wpws-column-right .wpws-field-row-content {
+    display: inline-block;
+    width: auto;
+    margin-left: 40px;
+    vertical-align: middle;
+}
+
+.wpws-table-container .wpws-style-config .wpws-field-row-content {
+    margin-left: 5px;
+}
+
+a.wpws-section-description {
+    font-weight: 600;
+}
+
+.wpws-setting-field-row-content .select2-container {
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+    width: 100% !important;
+}
+
+.setting-group-wordpress_rules .wpws-field-row-content.wpws-group-field-options {
+    display: block;
+    margin-left: 0;
+    overflow: visible;
+}
+
+.wpws-field-row.wpws-textarea-field .wpws-field-row-content {
+    margin-left: 0;
+}
+
+.setting-group-alignment_field .wpws-field-row-content.wpws-group-field-options {
+    margin-left: 20px;
+}
+
+.wpws-group-field-options input[type="radio"] {
+    position: absolute;
+    top: 4px;
+    opacity: 0;
+    border-radius: 0;
+    height: 28px;
+    width: 28px;
+}
+
+.wpws-group-field-option .dashicons {
+    line-height: 18px;
+    margin: 4px;
+}
+
+.widget-shortcode-input-field {
+    width: 215px;
+}
+
+.wpws-tooltip-text {
+    background: #444;
+    border-radius: 3px;
+    color: #fff;
+    height: auto;
+    left: 70px;
+    font-size: 12px;
+    margin-top: 10px;
+    max-width: 150px;
+    position: absolute;
+    padding: 6px 10px;
+    top: auto;
+    display: none;
+    z-index: 10000;
+}
+
+.wpws-tooltip-text::before {
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid #444;
+    bottom: auto;
+    content: " ";
+    font-size: 0;
+    left: 75px;
+    line-height: 0;
+    margin-left: -5px;
+    position: absolute;
+    top: -10px;
+    width: 0;
+}
+
+.display_tool_tip {
+    display: block;
+}
+
+.wpws-table-container .wpws-column-right .wpws-field-row-heading .dashicons {
+    line-height: 1.3em;
+    margin-left: 5px;
+    float: right;
+}
+
+.wpws-setting-field-row-content.setting-group-alignment_field .wpws-field-row-heading .dashicons, .wpws-setting-field-row-content.setting-group-checkbox_field .wpws-field-row-heading .dashicons {
+    float: unset;
+}
+
+.setting-group-wordpress_rules input.select2-search__field {
+    width: 150% !important;
+}
+
+.wpws-pro-config .wcf-field-section-heading h4:first-child {
+    margin-top: 0;
+}
+
+.wpws-column-right .wpws-style-config .wpws-field-row-heading {
+    vertical-align: middle;
+}
